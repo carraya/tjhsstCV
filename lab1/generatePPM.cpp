@@ -88,9 +88,6 @@ void bresenham(double x1, double y1, double x2, double y2)
 void generate()
 {
 	srand(time(0));	
-	
-	double rows[3];
-    double cols[3];
 
     double x1=((double) rand() / (RAND_MAX));
     double y1=((double) rand() / (RAND_MAX));
